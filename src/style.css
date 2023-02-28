@@ -68,7 +68,7 @@ form {
 input,
 select,
 textarea {
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 form input {
@@ -107,25 +107,13 @@ li {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow:
-      0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 30px #00d184,
-      0 0 40px #00d184,
-      0 0 50px #00d184,
-      0 0 60px #00d184,
-      0 0 70px #00d184;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00d184,
+      0 0 40px #00d184, 0 0 50px #00d184, 0 0 60px #00d184, 0 0 70px #00d184;
   }
 
   to {
-    text-shadow:
-      0 0 20px #fff,
-      0 0 30px #65f9c3,
-      0 0 40px #65f9c3,
-      0 0 50px #65f9c3,
-      0 0 60px #65f9c3,
-      0 0 70px #65f9c3,
-      0 0 80px #65f9c3;
+    text-shadow: 0 0 20px #fff, 0 0 30px #65f9c3, 0 0 40px #65f9c3,
+      0 0 50px #65f9c3, 0 0 60px #65f9c3, 0 0 70px #65f9c3, 0 0 80px #65f9c3;
   }
 }
 
